@@ -1,0 +1,12 @@
+Source Program:
+int x, y;
+begin	
+  x := y + 56;
+end 
+
+Lexeme List:
+29 2 x 17 2 y 18 21 2 x 20 2 y 4 3 56 18 22 
+
+intsym identsym x commasym identsym y semicolonsym beginsym identsym x becomessym identsym y plussym numbersym 56 semicolonsym endsym 
+
+*****Error number 9, Period expected.

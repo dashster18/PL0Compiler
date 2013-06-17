@@ -1,0 +1,10 @@
+Source Program:
+const x = 5;
+int y;.
+
+Lexeme List:
+28 2 x 9 3 5 18 29 2 y 18 19 
+
+constsym identsym x eqsym numbersym 5 semicolonsym intsym identsym y semicolonsym periodsym 
+
+*****Error number 7, Statement expected.

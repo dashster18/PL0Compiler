@@ -1,0 +1,14 @@
+Instructions for using the Lexical Analyzer/Scanner:
+
+Step 1) Uploading files to Eustis:
+     In order to be able to run the Lexical Analyzer, you have to first load up your files onto the Eustis server. In order to do that, use the 'scp' command on the unix command line, Terminal. For example, $ scp PM0.c <nid>@eustis.eecs.ucf.edu:~/<insert path here>. Then do this again for your input file.
+Step 2) Run Eustis
+     Now run Eustis and find the location where you copied the file to.
+
+Step 3) Compiling the Lexical Analyzer/Scanner:
+     Before you can use the Scanner, you need to compile it first. In order to do that, use the 'gcc' command on the unix command line, Terminal. For example, $ gcc Scanner.c -o Scanner.
+
+Step 4) Using the Lexical Analyzer/Scanner:
+     In order to use the scanner, you need to change the input file's name into "Scanner.in". After that, move the input file and the executable created by the 'gcc' command in the same directory. Then change your present working directory to the directory the executable and the input file is in. After that, excute the command $ ./Scanner. The scanner should run now and output to standard output. If you wish to redirect the output into a file, use this: $ ./Scanner > "filename". This should redirect your output to "filename"
+
+Note: In order to format the output correctly, please set your tab length to 4 spaces.

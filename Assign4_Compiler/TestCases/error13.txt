@@ -1,0 +1,10 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const a = 5;
+int x;
+begin
+	x	
+end.
+
+*****Error number 13, Assignment operator expected.

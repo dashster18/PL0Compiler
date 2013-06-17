@@ -1,0 +1,6 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const 5;
+
+*****Error number 4, const, int, procedure must be followed by identifier.

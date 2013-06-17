@@ -1,0 +1,24 @@
+(1) <Program> -> <block>.
+(2) <block> -> <const-declaration> <var-declaration> <statement>
+(3) <const-declaration> -> [const <ident> = <number> (, <ident> = <number>)*]
+(4) <var-declaration> -> [int <ident> (, <ident>)* ;]
+(5) <proc-declaration> -> (procedure <ident> ; <block> ;)* <statement>
+(6) <statement> -> [<ident> := <expression>
+    		|  call <ident>
+		|  begin <statement> (; <statement)* end
+		|  if <condition> then <statement> [else <statement>]
+		|  while <condition> do <statement>
+		|  in <ident>
+		|  out <ident>
+		|  e  
+		]
+(7) <condition> -> odd <expression
+    		|  <expression> <rel-op> <expression>
+(8) <rel-op> -> = | <> | < | <= | > | >=
+(9) <expression> -> [+ | -] <term> ((+ | -) <term>)*
+(10) <term> -> <factor> ((* | /) <factor>)*
+(11) <factor> -> <ident> | <number> | (<expression>)
+(12) <number> -> <digit> (<digit>)*
+(13) <ident> -> <letter> (<letter> | <digit>)*
+(14) <digit> -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+(15) <letter> -> a | b | c |  d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z

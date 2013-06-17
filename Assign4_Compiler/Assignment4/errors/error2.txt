@@ -1,0 +1,6 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const x = y;
+
+*****Error number 2, = must be followed by a number.

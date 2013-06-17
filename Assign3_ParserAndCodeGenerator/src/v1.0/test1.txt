@@ -1,0 +1,10 @@
+Source Program:
+const x := 5;
+
+
+Lexeme List:
+28 2 x 20 3 5 18 
+
+constsym identsym x becomessym numbersym 5 semicolonsym 
+
+*****Error number 1, Use = instead of :=.

@@ -1,0 +1,391 @@
+Source Program:
+int x, y;
+begin	
+  x := 4;
+  y := 5;
+  x := y + x;
+  x := -x;
+
+  while x < 0 do
+	   x := x + 1;
+  while y >= 0 do
+	   y := y - 1;
+
+  y := -y;
+  if odd y then
+  	 x := 2 * y;
+  if odd x then
+     x := x + 1;
+  if x > 0 then
+     x := 18;
+end.
+
+Lexeme List:
+29 2 x 17 2 y 18 21 2 x 20 3 4 18 2 y 20 3 5 18 2 x 20 2 y 4 2 x 18 2 x 20 5 2 x 18 25 2 x 11 3 0 26 2 x 20 2 x 4 3 1 18 25 2 y 14 3 0 26 2 y 20 2 y 5 3 1 18 2 y 20 5 2 y 18 23 8 2 y 24 2 x 20 3 2 6 2 y 18 23 8 2 x 24 2 x 20 2 x 4 3 1 18 23 2 x 13 3 0 24 2 x 20 3 18 18 22 19 
+
+intsym identsym x commasym identsym y semicolonsym beginsym identsym x becomessym numbersym 4 semicolonsym identsym y becomessym numbersym 5 semicolonsym identsym x becomessym identsym y plussym identsym x semicolonsym identsym x becomessym minusym identsym x semicolonsym whilesym identsym x lessym numbersym 0 dosym identsym x becomessym identsym x plussym numbersym 1 semicolonsym whilesym identsym y geqsym numbersym 0 dosym identsym y becomessym identsym y minusym numbersym 1 semicolonsym identsym y becomessym minusym identsym y semicolonsym ifsym oddsym identsym y thensym identsym x becomessym numbersym 2 multsym identsym y semicolonsym ifsym oddsym identsym x thensym identsym x becomessym identsym x plussym numbersym 1 semicolonsym ifsym identsym x gtrsym numbersym 0 thensym identsym x becomessym numbersym 18 semicolonsym endsym periodsym 
+
+Token: 29, Index: 1
+Token: 2, Index: 2
+Token: 0, Index: 3
+Token: 17, Index: 4
+Token: 2, Index: 5
+Token: 1, Index: 6
+Token: 18, Index: 7
+Token: 21, Index: 8
+Token: 2, Index: 9
+Token: 0, Index: 10
+Token: 20, Index: 11
+Token: 3, Index: 12
+Token: 4, Index: 13
+Token: 18, Index: 14
+Token: 2, Index: 15
+Token: 1, Index: 16
+Token: 20, Index: 17
+Token: 3, Index: 18
+Token: 5, Index: 19
+Token: 18, Index: 20
+Token: 2, Index: 21
+Token: 0, Index: 22
+Token: 20, Index: 23
+Token: 2, Index: 24
+Token: 1, Index: 25
+Token: 4, Index: 26
+Token: 2, Index: 27
+Token: 0, Index: 28
+Token: 18, Index: 29
+Token: 2, Index: 30
+Token: 0, Index: 31
+Token: 20, Index: 32
+Token: 5, Index: 33
+Token: 2, Index: 34
+Token: 0, Index: 35
+Token: 18, Index: 36
+Token: 25, Index: 37
+Token: 2, Index: 38
+Token: 0, Index: 39
+Token: 11, Index: 40
+Token: 3, Index: 41
+Token: 0, Index: 42
+Token: 26, Index: 43
+Token: 2, Index: 44
+Token: 0, Index: 45
+Token: 20, Index: 46
+Token: 2, Index: 47
+Token: 0, Index: 48
+Token: 4, Index: 49
+Token: 3, Index: 50
+Token: 1, Index: 51
+Token: 18, Index: 52
+Token: 25, Index: 53
+Token: 2, Index: 54
+Token: 1, Index: 55
+Token: 14, Index: 56
+Token: 3, Index: 57
+Token: 0, Index: 58
+Token: 26, Index: 59
+Token: 2, Index: 60
+Token: 1, Index: 61
+Token: 20, Index: 62
+Token: 2, Index: 63
+Token: 1, Index: 64
+Token: 5, Index: 65
+Token: 3, Index: 66
+Token: 1, Index: 67
+Token: 18, Index: 68
+Token: 2, Index: 69
+Token: 1, Index: 70
+Token: 20, Index: 71
+Token: 5, Index: 72
+Token: 2, Index: 73
+Token: 1, Index: 74
+Token: 18, Index: 75
+Token: 23, Index: 76
+Token: 8, Index: 77
+Token: 2, Index: 78
+Token: 1, Index: 79
+Token: 24, Index: 80
+Token: 2, Index: 81
+Token: 0, Index: 82
+Token: 20, Index: 83
+Token: 3, Index: 84
+Token: 2, Index: 85
+Token: 6, Index: 86
+Token: 2, Index: 87
+Token: 1, Index: 88
+Token: 18, Index: 89
+Token: 23, Index: 90
+Token: 8, Index: 91
+Token: 2, Index: 92
+Token: 0, Index: 93
+Token: 24, Index: 94
+Token: 2, Index: 95
+Token: 0, Index: 96
+Token: 20, Index: 97
+Token: 2, Index: 98
+Token: 0, Index: 99
+Token: 4, Index: 100
+Token: 3, Index: 101
+Token: 1, Index: 102
+Token: 18, Index: 103
+Token: 23, Index: 104
+Token: 2, Index: 105
+Token: 0, Index: 106
+Token: 13, Index: 107
+Token: 3, Index: 108
+Token: 0, Index: 109
+Token: 24, Index: 110
+Token: 2, Index: 111
+Token: 0, Index: 112
+Token: 20, Index: 113
+Token: 3, Index: 114
+Token: 18, Index: 115
+Token: 18, Index: 116
+Token: 22, Index: 117
+Token: 19, Index: 118
+No errors, program is syntactically correct
+
+Instructions:
+6 0 4
+6 0 2
+1 0 4
+4 0 4
+1 0 5
+4 0 5
+3 0 5
+3 0 4
+2 0 2
+4 0 4
+3 0 4
+2 0 1
+4 0 4
+3 0 4
+1 0 0
+2 0 10
+8 0 18
+7 0 23
+3 0 4
+1 0 1
+2 0 2
+4 0 4
+7 0 13
+3 0 5
+1 0 0
+2 0 13
+8 0 28
+7 0 33
+3 0 5
+1 0 1
+2 0 3
+4 0 5
+7 0 23
+3 0 5
+2 0 1
+4 0 5
+3 0 5
+2 0 6
+8 0 40
+7 0 44
+1 0 2
+3 0 5
+2 0 4
+4 0 4
+3 0 4
+2 0 6
+8 0 48
+7 0 52
+3 0 4
+1 0 1
+2 0 2
+4 0 4
+3 0 4
+1 0 0
+2 0 12
+8 0 57
+7 0 59
+1 0 18
+4 0 4
+2 0 0
+
+Virtual Machine:
+Line  OP   L   M  pc  bp  sp  stack
+  Initial Values   0   1   0  -EMPTY-
+   0 inc   0   4   1   1   4   0  0  0  0
+   1 inc   0   2   2   1   6   0  0  0  0  0  0
+   2 lit   0   4   3   1   7   0  0  0  0  0  0  4
+   3 sto   0   4   4   1   6   0  0  0  0  4  0
+   4 lit   0   5   5   1   7   0  0  0  0  4  0  5
+   5 sto   0   5   6   1   6   0  0  0  0  4  5
+   6 lod   0   5   7   1   7   0  0  0  0  4  5  5
+   7 lod   0   4   8   1   8   0  0  0  0  4  5  5  4
+   8 opr   0   2   9   1   7   0  0  0  0  4  5  9
+   9 sto   0   4  10   1   6   0  0  0  0  9  5
+  10 lod   0   4  11   1   7   0  0  0  0  9  5  9
+  11 opr   0   1  12   1   7   0  0  0  0  9  5 -9
+  12 sto   0   4  13   1   6   0  0  0  0 -9  5
+  13 lod   0   4  14   1   7   0  0  0  0 -9  5 -9
+  14 lit   0   0  15   1   8   0  0  0  0 -9  5 -9  0
+  15 opr   0  10  16   1   7   0  0  0  0 -9  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -9  5
+  18 lod   0   4  19   1   7   0  0  0  0 -9  5 -9
+  19 lit   0   1  20   1   8   0  0  0  0 -9  5 -9  1
+  20 opr   0   2  21   1   7   0  0  0  0 -9  5 -8
+  21 sto   0   4  22   1   6   0  0  0  0 -8  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -8  5
+  13 lod   0   4  14   1   7   0  0  0  0 -8  5 -8
+  14 lit   0   0  15   1   8   0  0  0  0 -8  5 -8  0
+  15 opr   0  10  16   1   7   0  0  0  0 -8  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -8  5
+  18 lod   0   4  19   1   7   0  0  0  0 -8  5 -8
+  19 lit   0   1  20   1   8   0  0  0  0 -8  5 -8  1
+  20 opr   0   2  21   1   7   0  0  0  0 -8  5 -7
+  21 sto   0   4  22   1   6   0  0  0  0 -7  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -7  5
+  13 lod   0   4  14   1   7   0  0  0  0 -7  5 -7
+  14 lit   0   0  15   1   8   0  0  0  0 -7  5 -7  0
+  15 opr   0  10  16   1   7   0  0  0  0 -7  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -7  5
+  18 lod   0   4  19   1   7   0  0  0  0 -7  5 -7
+  19 lit   0   1  20   1   8   0  0  0  0 -7  5 -7  1
+  20 opr   0   2  21   1   7   0  0  0  0 -7  5 -6
+  21 sto   0   4  22   1   6   0  0  0  0 -6  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -6  5
+  13 lod   0   4  14   1   7   0  0  0  0 -6  5 -6
+  14 lit   0   0  15   1   8   0  0  0  0 -6  5 -6  0
+  15 opr   0  10  16   1   7   0  0  0  0 -6  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -6  5
+  18 lod   0   4  19   1   7   0  0  0  0 -6  5 -6
+  19 lit   0   1  20   1   8   0  0  0  0 -6  5 -6  1
+  20 opr   0   2  21   1   7   0  0  0  0 -6  5 -5
+  21 sto   0   4  22   1   6   0  0  0  0 -5  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -5  5
+  13 lod   0   4  14   1   7   0  0  0  0 -5  5 -5
+  14 lit   0   0  15   1   8   0  0  0  0 -5  5 -5  0
+  15 opr   0  10  16   1   7   0  0  0  0 -5  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -5  5
+  18 lod   0   4  19   1   7   0  0  0  0 -5  5 -5
+  19 lit   0   1  20   1   8   0  0  0  0 -5  5 -5  1
+  20 opr   0   2  21   1   7   0  0  0  0 -5  5 -4
+  21 sto   0   4  22   1   6   0  0  0  0 -4  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -4  5
+  13 lod   0   4  14   1   7   0  0  0  0 -4  5 -4
+  14 lit   0   0  15   1   8   0  0  0  0 -4  5 -4  0
+  15 opr   0  10  16   1   7   0  0  0  0 -4  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -4  5
+  18 lod   0   4  19   1   7   0  0  0  0 -4  5 -4
+  19 lit   0   1  20   1   8   0  0  0  0 -4  5 -4  1
+  20 opr   0   2  21   1   7   0  0  0  0 -4  5 -3
+  21 sto   0   4  22   1   6   0  0  0  0 -3  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -3  5
+  13 lod   0   4  14   1   7   0  0  0  0 -3  5 -3
+  14 lit   0   0  15   1   8   0  0  0  0 -3  5 -3  0
+  15 opr   0  10  16   1   7   0  0  0  0 -3  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -3  5
+  18 lod   0   4  19   1   7   0  0  0  0 -3  5 -3
+  19 lit   0   1  20   1   8   0  0  0  0 -3  5 -3  1
+  20 opr   0   2  21   1   7   0  0  0  0 -3  5 -2
+  21 sto   0   4  22   1   6   0  0  0  0 -2  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -2  5
+  13 lod   0   4  14   1   7   0  0  0  0 -2  5 -2
+  14 lit   0   0  15   1   8   0  0  0  0 -2  5 -2  0
+  15 opr   0  10  16   1   7   0  0  0  0 -2  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -2  5
+  18 lod   0   4  19   1   7   0  0  0  0 -2  5 -2
+  19 lit   0   1  20   1   8   0  0  0  0 -2  5 -2  1
+  20 opr   0   2  21   1   7   0  0  0  0 -2  5 -1
+  21 sto   0   4  22   1   6   0  0  0  0 -1  5
+  22 jmp   0  13  13   1   6   0  0  0  0 -1  5
+  13 lod   0   4  14   1   7   0  0  0  0 -1  5 -1
+  14 lit   0   0  15   1   8   0  0  0  0 -1  5 -1  0
+  15 opr   0  10  16   1   7   0  0  0  0 -1  5  1
+  16 jpc   0  18  18   1   6   0  0  0  0 -1  5
+  18 lod   0   4  19   1   7   0  0  0  0 -1  5 -1
+  19 lit   0   1  20   1   8   0  0  0  0 -1  5 -1  1
+  20 opr   0   2  21   1   7   0  0  0  0 -1  5  0
+  21 sto   0   4  22   1   6   0  0  0  0  0  5
+  22 jmp   0  13  13   1   6   0  0  0  0  0  5
+  13 lod   0   4  14   1   7   0  0  0  0  0  5  0
+  14 lit   0   0  15   1   8   0  0  0  0  0  5  0  0
+  15 opr   0  10  16   1   7   0  0  0  0  0  5  0
+  16 jpc   0  18  17   1   6   0  0  0  0  0  5
+  17 jmp   0  23  23   1   6   0  0  0  0  0  5
+  23 lod   0   5  24   1   7   0  0  0  0  0  5  5
+  24 lit   0   0  25   1   8   0  0  0  0  0  5  5  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  5  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  5
+  28 lod   0   5  29   1   7   0  0  0  0  0  5  5
+  29 lit   0   1  30   1   8   0  0  0  0  0  5  5  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  5  4
+  31 sto   0   5  32   1   6   0  0  0  0  0  4
+  32 jmp   0  23  23   1   6   0  0  0  0  0  4
+  23 lod   0   5  24   1   7   0  0  0  0  0  4  4
+  24 lit   0   0  25   1   8   0  0  0  0  0  4  4  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  4  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  4
+  28 lod   0   5  29   1   7   0  0  0  0  0  4  4
+  29 lit   0   1  30   1   8   0  0  0  0  0  4  4  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  4  3
+  31 sto   0   5  32   1   6   0  0  0  0  0  3
+  32 jmp   0  23  23   1   6   0  0  0  0  0  3
+  23 lod   0   5  24   1   7   0  0  0  0  0  3  3
+  24 lit   0   0  25   1   8   0  0  0  0  0  3  3  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  3  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  3
+  28 lod   0   5  29   1   7   0  0  0  0  0  3  3
+  29 lit   0   1  30   1   8   0  0  0  0  0  3  3  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  3  2
+  31 sto   0   5  32   1   6   0  0  0  0  0  2
+  32 jmp   0  23  23   1   6   0  0  0  0  0  2
+  23 lod   0   5  24   1   7   0  0  0  0  0  2  2
+  24 lit   0   0  25   1   8   0  0  0  0  0  2  2  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  2  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  2
+  28 lod   0   5  29   1   7   0  0  0  0  0  2  2
+  29 lit   0   1  30   1   8   0  0  0  0  0  2  2  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  2  1
+  31 sto   0   5  32   1   6   0  0  0  0  0  1
+  32 jmp   0  23  23   1   6   0  0  0  0  0  1
+  23 lod   0   5  24   1   7   0  0  0  0  0  1  1
+  24 lit   0   0  25   1   8   0  0  0  0  0  1  1  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  1  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  1
+  28 lod   0   5  29   1   7   0  0  0  0  0  1  1
+  29 lit   0   1  30   1   8   0  0  0  0  0  1  1  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  1  0
+  31 sto   0   5  32   1   6   0  0  0  0  0  0
+  32 jmp   0  23  23   1   6   0  0  0  0  0  0
+  23 lod   0   5  24   1   7   0  0  0  0  0  0  0
+  24 lit   0   0  25   1   8   0  0  0  0  0  0  0  0
+  25 opr   0  13  26   1   7   0  0  0  0  0  0  1
+  26 jpc   0  28  28   1   6   0  0  0  0  0  0
+  28 lod   0   5  29   1   7   0  0  0  0  0  0  0
+  29 lit   0   1  30   1   8   0  0  0  0  0  0  0  1
+  30 opr   0   3  31   1   7   0  0  0  0  0  0 -1
+  31 sto   0   5  32   1   6   0  0  0  0  0 -1
+  32 jmp   0  23  23   1   6   0  0  0  0  0 -1
+  23 lod   0   5  24   1   7   0  0  0  0  0 -1 -1
+  24 lit   0   0  25   1   8   0  0  0  0  0 -1 -1  0
+  25 opr   0  13  26   1   7   0  0  0  0  0 -1  0
+  26 jpc   0  28  27   1   6   0  0  0  0  0 -1
+  27 jmp   0  33  33   1   6   0  0  0  0  0 -1
+  33 lod   0   5  34   1   7   0  0  0  0  0 -1 -1
+  34 opr   0   1  35   1   7   0  0  0  0  0 -1  1
+  35 sto   0   5  36   1   6   0  0  0  0  0  1
+  36 lod   0   5  37   1   7   0  0  0  0  0  1  1
+  37 opr   0   6  38   1   7   0  0  0  0  0  1  1
+  38 jpc   0  40  40   1   6   0  0  0  0  0  1
+  40 lit   0   2  41   1   7   0  0  0  0  0  1  2
+  41 lod   0   5  42   1   8   0  0  0  0  0  1  2  1
+  42 opr   0   4  43   1   7   0  0  0  0  0  1  2
+  43 sto   0   4  44   1   6   0  0  0  0  2  1
+  44 lod   0   4  45   1   7   0  0  0  0  2  1  2
+  45 opr   0   6  46   1   7   0  0  0  0  2  1  0
+  46 jpc   0  48  47   1   6   0  0  0  0  2  1
+  47 jmp   0  52  52   1   6   0  0  0  0  2  1
+  52 lod   0   4  53   1   7   0  0  0  0  2  1  2
+  53 lit   0   0  54   1   8   0  0  0  0  2  1  2  0
+  54 opr   0  12  55   1   7   0  0  0  0  2  1  1
+  55 jpc   0  57  57   1   6   0  0  0  0  2  1
+  57 lit   0  18  58   1   7   0  0  0  0  2  1 18
+  58 sto   0   4  59   1   6   0  0  0  0 18  1
+  59 opr   0   0   0   0   0  -EMPTY- 

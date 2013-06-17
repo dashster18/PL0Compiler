@@ -1,0 +1,10 @@
+Source Program:
+const 5;
+
+
+Lexeme List:
+28 3 5 18 
+
+constsym numbersym 5 semicolonsym 
+
+*****Error number 4, const, int, procedure must be followed by identifier.

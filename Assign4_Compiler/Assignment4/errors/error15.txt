@@ -1,0 +1,14 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const n = 18;
+procedure a;
+	int x;
+	begin
+		x := 1
+	end;
+begin
+	call n
+end.
+
+*****Error number 15, Call of a constant or variable is meaningless.

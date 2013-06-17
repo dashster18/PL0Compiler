@@ -1,0 +1,11 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const x = 5, y = 7
+int n, m;
+begin 
+ n := x;
+ m := y
+end.
+
+*****Error number 5, Semicolon or comma missing.

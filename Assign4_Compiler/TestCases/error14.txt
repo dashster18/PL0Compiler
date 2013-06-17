@@ -1,0 +1,13 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+procedure a;
+	int x;
+	begin
+		x := 1
+	end;
+begin
+	call 3
+end.
+
+*****Error number 14, call must be followed by an identifier.

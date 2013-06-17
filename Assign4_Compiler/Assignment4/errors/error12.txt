@@ -1,0 +1,9 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const a = 5;
+begin
+		a := 3
+end.
+
+*****Error number 12, Assignment to constant or procedure is not allowed.

@@ -1,0 +1,26 @@
+Instructions for using the PL/0 Compiler:
+
+Step 1) Uploading files to Eustis:
+     In order to be able to run the PL/0 compiler, you have to first load up your files onto the Eustis server. In order to do that, use the 'scp' command on the unix command line, Terminal. It is recommended you move all the source files and header files into one directory. The files are main.c, Parser.h, Scanner.h, and VM.h. If you want to save some time also, put your input file onto this directory also. Then execute the command  $ scp -r <directoryNameWithAllTheFiles> <nid>@eustis.eecs.ucf.edu:~/<insert path here>. This will move the directory you just created to Eustis. If you didn't include the input file in the directory, you can execute $ scp <inputFile> <nid>@eustis.eecs.ucf.edu:~/<insert path here>.
+Step 2) Run Eustis
+     Now run Eustis and find the location where you copied the file to.
+
+Step 3) Compiling the PL/0 Compiler:
+     Before you can use the compiler, you need to compile the source code first. In order to do that, use the 'gcc' command on the unix command line, Terminal. In this case, you only need to compile main.c, so we recommend you use
+	 		$ gcc main.c -o PL0
+	 This will create an executable file "PL0" which you can execute.
+
+Step 4) Using the PL/0 Compiler:
+     In order to use the compiler, you need to change the input file's name into "Scanner.in". After that, move the input file and the executable created by the 'gcc' command in the same directory. Then change your present working directory to the directory the executable and the input file is in. After that, excute the command $ ./Scanner. The scanner should run now and output to standard output. If you wish to redirect the output into a file, use this: $ ./Scanner > "filename". This should redirect your output to "filename"
+
+	 In order to use the compiler, you need to execute the executable just created (In our example, it's called PL0 and for the purpose of this readme we are going to use that. You are free to call it whatever you like). The executable can also take in one optional argument, the input file name. If you don't provide an input file in the argument, the program will default to trying to read "input.pl0". The following commands will run the program:
+	 	
+		$ ./PL0 OR
+		$ ./PL0 <inputFile>
+
+	By default, the program outputs it's result to standard output. If you wish to output to file, you should redirect the output to a file:
+	
+		$ ./PL0 > <outputFile> OR
+		$ ./PL0 <inputFile> > <outputFile>
+
+and that's it!

@@ -1,0 +1,7 @@
+Instructions to use the PM/0 virtual machine:
+
+Step 1) Uploading files to Eustis:
+     In order to be able to run the PM/0 VM, you have to first load up your files onto the Eustis server. In order to do that, use the 'scp' command on the unix command line, Terminal. For example, $ scp PM0.c <nid>@eustis.eecs.ucf.edu:~/<insert path here>. Then do this again for your input file.
+
+Step 2) Compiling the PM/0 VM:
+     Before you can use the virtual machine, you need to compile it first. In order to do that, use the 'gcc' command on the unix command line, Terminal. For example, $ gcc PM0.c -o PM0.

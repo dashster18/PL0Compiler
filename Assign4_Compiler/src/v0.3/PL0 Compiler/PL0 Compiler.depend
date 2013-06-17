@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1353295074 source:c:\users\chris\documents\workspace\pl0cv1\main.c
+	"Parser.h"
+	"VM.h"
+
+1353275620 c:\users\chris\documents\workspace\pl0cv1\parser.h
+	"Scanner.h"
+
+1353275620 c:\users\chris\documents\workspace\pl0cv1\scanner.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1353275620 c:\users\chris\documents\workspace\pl0cv1\vm.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1353482858 source:c:\users\chris\documents\workspace\pl0 compiler\main.c
+	"Parser.h"
+	"VM.h"
+
+1353478312 c:\users\chris\documents\workspace\pl0 compiler\parser.h
+	"Scanner.h"
+
+1353482919 c:\users\chris\documents\workspace\pl0 compiler\scanner.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1353275620 c:\users\chris\documents\workspace\pl0 compiler\vm.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

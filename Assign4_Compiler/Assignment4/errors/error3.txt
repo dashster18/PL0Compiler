@@ -1,0 +1,6 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const x, y = 5;
+
+*****Error number 3, Identifier must be followed by =.

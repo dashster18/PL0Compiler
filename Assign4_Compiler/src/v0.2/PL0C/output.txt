@@ -1,0 +1,4 @@
+PL0 Compiler Started!
+Argument: 0 - compile
+Running testScannerOut()
+Scanner Output Success!

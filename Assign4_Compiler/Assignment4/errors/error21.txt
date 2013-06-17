@@ -1,0 +1,15 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+const n = 18;
+int y,z;
+procedure a;
+	int x;
+	begin
+		x := 1
+	end;
+begin
+	y := a
+end.
+
+*****Error number 21, Expression must not contain a procedure identifier.

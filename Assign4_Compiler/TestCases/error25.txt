@@ -1,0 +1,10 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+int x, y;
+begin	
+  x := 987654321;
+  y := 2 *(x + 42);
+end.
+
+*****Error number 25, This number is too large.

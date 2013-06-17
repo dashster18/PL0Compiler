@@ -1,0 +1,13 @@
+Source Program:
+int x, y;
+begin	
+  while x neq 0 
+  	 y := x + 42;
+end.
+
+Lexeme List:
+29 2 x 17 2 y 18 21 25 2 x 2 neq 3 0 2 y 20 2 x 4 3 42 18 22 19 
+
+intsym identsym x commasym identsym y semicolonsym beginsym whilesym identsym x identsym neq numbersym 0 identsym y becomessym identsym x plussym numbersym 42 semicolonsym endsym periodsym 
+
+*****Error number 20, Relational operator expected.

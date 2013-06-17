@@ -1,0 +1,9 @@
+PL0 Compiler Started!
+Argument: 1 - testInput.pl0
+Source Program:
+int x, y;
+begin	
+  x := y + 56;
+end 
+
+*****Error number 9, Period expected.
